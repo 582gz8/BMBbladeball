@@ -50,7 +50,7 @@ function isindontkill(player)
 end
 
 Tabs.Main:AddSection("Main")
-local autoparry = Tabs.Main:AddToggle("autoparry", {Title = "Auto Parry ball", Default = true })
+local autoparry = Tabs.Main:AddToggle("autoparry", {Title = "One click auto farm(kaitun)", Default = true })
 autoparry:OnChanged(function(toggled)
 	if toggled then
 		rubyhub.autoparrying = true
